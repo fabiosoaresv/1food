@@ -42,7 +42,7 @@ class ListRestaurants extends Component {
 
         <Column.Group multiline gapSize={2}>
           {this.state.restaurants.map(restaurant => {
-            return <Restaurant {...restaurant}/>
+            return <Restaurants {...restaurant}/>
           })}
           </Column.Group>
       </div>
